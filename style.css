@@ -1,0 +1,97 @@
+@media screen and (max-width:600px) {
+    cell{
+        width: 100%;
+    }
+    
+}
+
+
+body{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.636), rgba(0, 0, 0, 0.544)), url(/bg.gif);
+   
+     background-size: cover;
+     
+}
+
+
+
+h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+  
+}
+
+
+.cell{
+    align-items: center;
+    justify-content: center;
+    color: rgb(23, 83, 15);
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 0px 0px 10px 2px;
+    line-height: 100px;
+    font-size: 60px;
+    cursor: pointer;
+    background-color: rgba(250, 235, 215, 0.315);
+    border-radius: 10px;
+    transition: transform 0.10s;
+
+.audio{
+   color: rgb(0, 0, 0);
+
+    }
+
+}
+
+.cell:hover{
+    transform: scale(1.1);
+color: rgb(104, 25, 23);
+}
+
+h2{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+    
+   
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 290px;
+    margin: auto;
+}
+#restartBtn{
+    
+}
+
+button {
+    background-color: rgba(200, 213, 200, 0.4);
+    margin-left: 20px;
+    line-height: 100%;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(25, 44, 24);
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+
+
